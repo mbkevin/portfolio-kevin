@@ -1,0 +1,697 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 120px;
+}
+header nav ul li{
+    margin: 0 10%;
+
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 22px;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    list-style: none;
+}
+.logo:hover{
+    color: #EEA302;
+}
+.border-left{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39.05px;
+    text-align: left;
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+.border-left:hover{
+    color: #E13B25;
+}
+.border-lef{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39.05px;
+    text-align: left;
+    padding-left: 10px;
+
+}
+.border-lef:hover{
+    color: #E13B25;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+.moi{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35.5px;
+    text-align: left;
+}
+.h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35.5px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.mon_h2{
+    font-family: "Inter", sans-serif;
+    width: 171px;
+    height:82px ;
+    font-size: 68px;
+    Top:299px;
+    Left:777px;
+    margin-bottom: 20px;
+}
+.main_section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-container{
+    width: 484px;
+    height: 484px;
+    border-radius: 50%;
+}
+.simeon{
+font-size: 20px;
+line-height: 35.5px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+}
+.mes_info{
+    width: 484px;
+    height: 452px;
+    margin-top: 20px;
+   
+}
+.content-main{
+    width: 484px;
+
+    padding-top: 20px;
+}
+.apropos{
+font-size: 20px;
+line-height: 35.5px;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+margin-top: 20px;
+}
+.liens{
+    width: 458px;
+    height: 120px;
+    top: 631px;
+    left: 777px;
+    border-radius: 100px;
+    border: 1px;
+
+}
+.liens .cv{
+    background-color: #EEA302;
+    width: 120px;
+    height: 120px;
+    border:1px #593E03;
+
+}
+span{
+    width: 63px;
+    height: 22px;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-family: "Inter", sans-serif;
+
+}
+.mes_buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.cv{
+    background-color:#EEA302;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 0;
+    width: 130px;
+    height: 130px;
+}
+.cv:hover{
+    background-color: white;
+}
+.Contact{
+    background-color:#E13B25;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    border: 1px solid black;
+    margin: 0;
+    width: 130px;
+    height: 130px;
+  
+}
+.Contact:hover{
+    background-color: white;
+}
+.Projets{
+    background-color:#80D8DA;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 0;
+    width: 130px;
+    height: 130px;
+}
+.Projets:hover{
+    background-color: white;
+}
+.a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31.95px;
+    text-align: left;
+
+}
+
+
+
+/* partie cv*/
+.vitae{
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    line-height: 49.71px;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom: 40px;
+
+
+}
+.experience{
+    width: 374px;
+    height: 50px;
+    font-weight: 700;
+    line-height: 49.71px;
+    font-size: 28px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+
+    
+  
+}
+
+.paris{
+    text-align: right;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 35.5px;
+
+}
+.exp{
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+.dev{
+    text-align: left;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+.posed{
+    display: flex;
+    justify-content: space-between; 
+}
+.pose{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 40px;
+
+}
+.pose div {
+    flex: 1; 
+}
+.sopra{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.5px;
+    font-family: "Inter", sans-serif;
+}
+.ligne{
+    font-size:  20px;
+    font-weight: 400;
+    line-height: 35.5px;
+    font-family: "Inter", sans-serif;
+    padding-top: 20px;
+    
+}
+.ul{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.hr{
+    width: calc(100%);
+    left: 0;
+    min-width: initial;
+    height: 3px;
+    font-weight: 1000;
+    border-top: var(--lnw, 1px) ;
+    margin-top: 40px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.tete{
+    font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 700;
+}
+.spacing{
+    border-top: 1px solid #D9D9D9;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.main-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 190px - 190px);
+
+}
+
+.flex{
+    display: flex;
+}
+.shifted{
+    width: 538.87px;
+    height: 331px;
+    justify-content: right;
+    left: 839px;
+
+}
+.section{
+    padding-bottom: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.custom-input {
+    width: 294px;
+    height: 105px;
+    position: absolute; 
+    top: 225px;
+    left: 885px;
+    gap: 16px; 
+  
+}
+
+/* Autres styles... */
+
+.formulaire {
+    flex: 1;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.content {
+    flex: 1;
+    margin-right: 20px;
+}
+.contact-info {
+    margin-left: 120px;
+}
+
+button.round-button {
+    width: 191px;
+height: 191px;
+top: 532px;
+left: 1214px;
+padding-top: 10px ;
+gap: 10px;
+border-radius: 100px;
+
+border: 2px solid black;
+margin-top: 30px ;
+ background-color: #EEA302;
+ 
+    border-color:#593E03 ;
+    cursor: pointer;
+    font-size: 16px;
+    
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.button_nav{
+    text-decoration: none;
+}
+#contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin: 80px;
+    padding: 20px;
+}
+input{
+     width: 294px;
+    height: 53px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+
+top: 225px;
+left: 885px;
+
+
+}
+label{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+textarea{
+margin-top: 20px;
+    width: 294px;
+height: 187px;
+
+border: 2px solid black;
+
+
+   
+top: 473px;
+left: 885px;
+
+
+}
+.phone{
+    margin-top: 30px;
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+
+
+}
+.num{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+
+}
+.call{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+
+.pied{display: flex;
+    justify-content: space-evenly;
+}
+.mes_i{
+display: flex;
+justify-content: space-between;
+}
+i{
+    width: 21.69px;
+    height: 25px;
+    top: 99px;
+    left: 703.56px;
+ 
+    
+}
+.section_pro{
+    margin-bottom: 40px;
+   
+}
+.sec{
+    border-top-width: 1362px;
+    
+    border-top: 3px solid #D9D9D9;
+    margin-top:50px ;
+}
+.li{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35.5px;
+}
+.comp{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.5px;
+}
+.diplome{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35.5px;
+}
+.page{
+    font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 35.5px;
+text-align: left;
+
+}
+.pag{
+    font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 35.5px;
+padding-bottom: 10px;
+
+}
+.ul_natif{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.for-me{
+    font-family: "Inter", sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 33.89px;
+
+
+}
+
+
+/* Styles pour les tablettes */
+@media (max-width: 768px) {
+    .main_section{
+      justify-content: space-between
+    }
+    .mes_buttons{
+        margin-left: -42px;
+        width: 22px;
+
+
+    }
+   
+    .apropos {
+        width: 385px;
+    }
+    .content-main {
+        width: 484px;
+        padding-top: 0px;
+    }
+    .element{
+        padding-right: 16px;
+    }
+    nav ul {
+       margin-top: 20px;
+    }
+    .image-container{
+        width: 354px;
+        height: 354px;
+        border-radius: 50%;
+        margin-left: 30px;
+    }
+    .mon_h2{
+        margin-bottom: 0;
+       font-size: 52px;
+        text-align: center;
+    }
+    .for-me{
+        margin-left: 20px;
+
+    }
+    
+
+}
+
+/* Styles pour les téléphones portables */
+@media (max-width: 480px) {
+    .section{
+        width: 377px;
+    }
+    .main-content{
+        margin-left: 30px;
+    }
+    .vitae{
+        margin-bottom: 40px;
+        width: 374px;
+        height: 50px;
+    }
+    .form-container{
+        flex-direction: column;
+    }
+    .contact-info{
+        margin-left: 40px;
+    }
+    .sec{
+        width: 377px;
+    }
+    .shifted {
+        width: 386.87px;
+        height: 259px;
+        padding-right: 28px;
+    }
+
+    .pose {
+        flex-direction: column-reverse;
+        width: 403px;
+    }
+    .section_pro{
+        width: 411px;
+        flex-direction: column-reverse;
+    }
+
+    .pose{
+
+    }
+
+    
+    
+    .logo {
+        font-size: 1.5em;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+    
+    .main_section{
+flex-direction: column;
+    }
+    .image-container{
+        width: 354px;
+        height: 354px;
+        border-radius: 50%;
+        margin-left: 30px;
+    }
+    .mon_h2{
+        margin-left:110px ;
+    }
+    .mes_buttons{
+        flex-direction: column;
+       
+        margin-left:130px ;
+
+    }
+    .header, .footer {
+        flex-direction: column;
+    }
+    .element{
+        margin-top: 30px;
+    }
+    .for-me{
+        margin-left: 90px;
+    }
+    .pied{
+        margin-top: 350px;
+    }
+    .h3{
+        text-align: center;
+    }
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        text-align: center;
+    }
+    .apropos{
+        text-align: center;
+        margin-right: 72px;
+
+    }
+
+}
